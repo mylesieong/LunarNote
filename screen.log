@@ -1,0 +1,31 @@
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.4.1.RELEASE)
+
+2016-09-28 12:08:49.341  INFO 1208 --- [           main] com.bcm.lunarnote.Application            : Starting Application v1.0-SNAPSHOT on pc-11-032 with PID 1208 (C:\Users\BI77\Documents\itr_n_chg\itr-lunar_note_web_portal\LunarNote\target\lunarnote-1.0-SNAPSHOT.jar started by BI77 in C:\Users\BI77\Documents\itr_n_chg\itr-lunar_note_web_portal\LunarNote)
+2016-09-28 12:08:49.357  INFO 1208 --- [           main] com.bcm.lunarnote.Application            : No active profile set, falling back to default profiles: default
+2016-09-28 12:08:49.762  INFO 1208 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1ff54e6: startup date [Wed Sep 28 12:08:49 CST 2016]; root of context hierarchy
+2016-09-28 12:08:51.931  INFO 1208 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-09-28 12:08:51.947  INFO 1208 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-09-28 12:08:51.947  INFO 1208 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.5
+2016-09-28 12:08:52.056  INFO 1208 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-09-28 12:08:52.056  INFO 1208 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2294 ms
+2016-09-28 12:08:52.243  INFO 1208 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2016-09-28 12:08:52.243  INFO 1208 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-09-28 12:08:52.243  INFO 1208 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-09-28 12:08:52.243  INFO 1208 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-09-28 12:08:52.243  INFO 1208 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2016-09-28 12:08:52.633  INFO 1208 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1ff54e6: startup date [Wed Sep 28 12:08:49 CST 2016]; root of context hierarchy
+2016-09-28 12:08:52.742  INFO 1208 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/greeting]}" onto public java.lang.String com.bcm.lunarnote.GreetingController.greeting(java.lang.String,org.springframework.ui.Model)
+2016-09-28 12:08:52.758  INFO 1208 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-09-28 12:08:52.758  INFO 1208 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-09-28 12:08:52.789  INFO 1208 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-09-28 12:08:52.789  INFO 1208 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-09-28 12:08:52.836  INFO 1208 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-09-28 12:08:53.382  INFO 1208 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-09-28 12:08:53.460  INFO 1208 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-09-28 12:08:53.475  INFO 1208 --- [           main] com.bcm.lunarnote.Application            : Started Application in 5.054 seconds (JVM running for 5.723)
+2016-09-28 12:09:01.007  INFO 1208 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-09-28 12:09:01.007  INFO 1208 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-09-28 12:09:01.029  INFO 1208 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+2016-09-28 12:09:07.021  INFO 1208 --- [       Thread-3] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1ff54e6: startup date [Wed Sep 28 12:08:49 CST 2016]; root of context hierarchy
+2016-09-28 12:09:07.021  INFO 1208 --- [       Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown

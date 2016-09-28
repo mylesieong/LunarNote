@@ -1,1 +1,2 @@
-com\bcm\lunarnote\App.class
+com\bcm\lunarnote\Application.class
+com\bcm\lunarnote\GreetingController.class

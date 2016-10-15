@@ -1,10 +1,35 @@
 <!DOCTYPE HTML>
-<html>
-<head>
-    <title>Getting Started: Serving Web Content</title>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-</head>
-<body>
-    <p>Get your greeting <a href="/greeting">here</a></p>
-</body>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <h5 class="font-xxs color-ct-blue">Header Information</h5>
+    </header>
+    <main>
+      <div class="container">
+          <form action="login" method="get">
+            <div class="row margin-tb-1">
+              <div class="col-sm-6 text-center">User: </div>
+              <div class="col-sm-6"><input type="text" name="fusr" /></div>
+            </div>
+            <div class="row margin-tb-1">
+              <div class="col-sm-6 text-center">Password: </div>
+              <div class="col-sm-6"><input type="password" name="fpwd" /></div>
+            </div>
+            <div class="row margin-tb-1 text-center">
+              <button type="submit" class="btn btn-default">Sign in</button>
+            </div>
+          </form>
+      </div>
+    </main>
+    <footer>
+      <h5 class="font-xxs color-ct-grey">Footer Information</h5>
+    </footer>
+  </body>
 </html>

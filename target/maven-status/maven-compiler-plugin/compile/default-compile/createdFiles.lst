@@ -1,2 +1,3 @@
 com\bcm\lunarnote\Application.class
-com\bcm\lunarnote\GreetingController.class
+com\bcm\lunarnote\AS400Toolkit.class
+com\bcm\lunarnote\AppController.class

@@ -11,6 +11,8 @@ import com.ibm.as400.access.*;
 
 public class AS400Toolkit{
   
+  final static int DATE_FORMAT_YMD = 1;
+
   public static boolean loginIntent(String user){
     return true;
   }
@@ -21,6 +23,10 @@ public class AS400Toolkit{
 
   public static boolean modifyIntent(String user){
     return true;
+  }
+
+  public static int getICBSDate(int dateFormat){
+    return 20161019; 
   }
 
 }

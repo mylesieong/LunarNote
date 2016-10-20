@@ -1,3 +1,4 @@
 com\bcm\lunarnote\Application.class
 com\bcm\lunarnote\AS400Toolkit.class
+com\bcm\lunarnote\BytesHelper.class
 com\bcm\lunarnote\AppController.class

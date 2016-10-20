@@ -15,7 +15,7 @@ public class AS400ToolkitTest {
 
   @Test
   public void testGetICBSDate(){
-    assertEquals(AS400Toolkit.getICBSDate(AS400Toolkit.DATE_FORMAT_YMD), 20161019);
+    assertEquals(AS400Toolkit.getICBSDate(AS400Toolkit.DATE_FORMAT_YMD), 20161020);
   }
   
 }
